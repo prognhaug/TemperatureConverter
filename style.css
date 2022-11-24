@@ -1,8 +1,9 @@
 body {
+  height: 100vh;
   display: block;
   margin: auto;
   font-family: "Open Sans", sans-serif;
-  background-color: #202124;
+  background-image: linear-gradient(to top left, #f3bd0c 0%, #b31c21 100%);
 }
 
 h1 {
@@ -41,7 +42,5 @@ button {
 }
 
 #all {
-  width: 50%;
-  display: block;
-  margin: auto;
+  margin-left: 1vh;
 }
