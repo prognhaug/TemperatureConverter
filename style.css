@@ -1,46 +1,23 @@
-body {
-  height: 100vh;
-  display: block;
-  margin: auto;
-  font-family: "Open Sans", sans-serif;
-  background-image: linear-gradient(to top left, #f3bd0c 0%, #b31c21 100%);
-}
-
+/*
 h1 {
   font-size: 26px;
   display: block;
   margin: auto;
 }
 
-#firstWord {
-  color: azure;
-}
 
-#secondWord {
-  padding-left: 0.2rem;
-  color: #ff9900;
 }
 
 .unit {
   color: azure;
 }
 
-.input {
-  height: 3rem;
-  border: none;
-  border-bottom: 2px solid #202124;
-  width: 10rem;
-}
+
 
 button {
-  padding: none;
-  margin: none;
-  border: none;
-  width: 164px;
-  height: 48px;
-  background-color: #ff9900;
+
 }
 
 #all {
   margin-left: 1vh;
-}
+} */

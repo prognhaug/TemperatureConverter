@@ -16,46 +16,59 @@
     <title>Temp Converter</title>
   </head>
   <body>
-    <div class="container-sm" style="border: solid red 1px">
-      <h1>
-        <span id="firstWord">Temperature</span><br /><span id="secondWord"
+    <div
+      class="card p-2 position-absolute top-50 start-50 translate-middle shadow"
+      style="width: 16rem; background-color: none"
+    >
+      <h5 class="card-title text-wrap">
+        <!-- <span id="firstWord">Temperature</span><br /><span id="secondWord"
           >Converter</span
-        >
-      </h1>
+        > -->
+        <div class="display-5 fs-1">Temperature Converter</div>
+      </h5>
       <form>
-        <input
-          class="input"
-          onclick="this.select()"
-          name="c"
-          value=""
-          type="number"
-          placeholder="0"
-          aria-label="Celsius"
-        />
-        <span class="unit">°C</span>
-        <br />
-        <input
-          class="input"
-          onclick="this.select()"
-          name="f"
-          value=""
-          type="number"
-          placeholder="0"
-          aria-label="Fahrenheit"
-        />
-        <span class="unit">°F</span><br />
-        <input
-          class="input"
-          onclick="this.select()"
-          name="k"
-          value=""
-          type="number"
-          placeholder="0"
-          aria-label="Kelvin"
-        />
-        <span class="unit">°K</span><br />
+        <ul class="list-group">
+          <li>
+            <input
+              class="input"
+              onclick="this.select()"
+              name="c"
+              value=""
+              type="number"
+              placeholder="0"
+              aria-label="Celsius"
+            />
+            °C
+          </li>
+          <li>
+            <input
+              class="input"
+              onclick="this.select()"
+              name="f"
+              value=""
+              type="number"
+              placeholder="0"
+              aria-label="Fahrenheit"
+            />
+            °F
+          </li>
+          <li>
+            <input
+              class="input"
+              onclick="this.select()"
+              name="k"
+              value=""
+              type="number"
+              placeholder="0"
+              aria-label="Kelvin"
+            />
+            °K
+          </li>
+        </ul>
       </form>
-      <button onclick="reset()" aria-label="Reset Button">Reset</button>
+      <button id="btn" onclick="reset()" aria-label="Reset Button">
+        Reset
+      </button>
     </div>
   </body>
   <script src="script.js"></script>

@@ -4,6 +4,35 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+body {
+  height: 100vh;
+  display: block;
+  margin: auto;
+  font-family: "Open Sans", sans-serif;
+  background-image: linear-gradient(to top left, #f3bd0c 0%, #b31c21 100%);
+}
+
+#btn {
+  width: 13rem;
+  padding: none;
+  margin: none;
+  border: none;
+  height: 3rem;
+  background-color: #ff9900;
+}
+
+.input {
+  height: 3rem;
+  border: none;
+  border-bottom: 2px solid #202124;
+  width: 13rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -4051,10 +4080,15 @@ fieldset:disabled .btn {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: none;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  /* border: 1px solid rgba(0, 0, 0, 0.125); */
   border-radius: 0.25rem;
+  background-image: linear-gradient(
+    to bottom right,
+    #f3bd0cbe 0%,
+    #b31c2185 100%
+  );
 }
 .card > hr {
   margin-right: 0;
